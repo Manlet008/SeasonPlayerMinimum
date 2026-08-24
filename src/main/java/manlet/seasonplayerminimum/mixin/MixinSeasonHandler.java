@@ -29,6 +29,11 @@ public class MixinSeasonHandler
 
         int minimumPlayers = level.getGameRules().getInt(SeasonPlayerMinimum.RULE_SEASON_CYCLE_PLAYER_MINIMUM);
         if (server.getPlayerList().getPlayerCount() < minimumPlayers)
+        {
+            // Keep lastDayTimes in sync with the world's day time while paused, otherwise the
+            // elapsed time gets banked and slams into seasonCycleTicks all at once on resume.
+            SeasonHandler.lastDayTimes.put(level, level.getDayTime());
             ci.cancel();
+        }
     }
 }
