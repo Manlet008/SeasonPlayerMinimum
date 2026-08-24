@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: Season Player Minimum
+Specification-Vendor: Manlet
+Specification-Version: 1.0.0
+Implementation-Title: Season Player Minimum
+Implementation-Version: 1.0.0
+Implementation-Vendor: Manlet
+MixinConfigs: seasonplayerminimum.mixins.json
+

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "manlet.seasonplayerminimum.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "seasonplayerminimum.refmap.json",
+  "mixins": [
+    "MixinSeasonHandler"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
