@@ -10,11 +10,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import sereneseasons.season.SeasonHandler;
 
-// Lower than the default priority (1000) so this cancels the tick before Serene Seasons' own
-// logic runs, and before any other mod's same-priority-or-higher HEAD injection on this method
-// (e.g. Serene Seasons Fix - Revived's own override) gets a chance to run - Mixin skips every
-// later handler in the chain, and the original method body, once a callback is cancelled.
-@Mixin(value = SeasonHandler.class, priority = 500, remap = false)
+@Mixin(value = SeasonHandler.class, priority = SeasonPlayerMinimum.MIXIN_PRIORITY, remap = false)
 public class MixinSeasonHandler
 {
     @Inject(method = "onLevelTick", at = @At("HEAD"), cancellable = true, remap = false)

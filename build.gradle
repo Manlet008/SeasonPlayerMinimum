@@ -60,14 +60,24 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    // Serene Seasons is never shipped with this mod - it's only needed at compile time to
-    // reference SeasonHandler as the mixin target. Class/method names for mod code (unlike
-    // vanilla) are never obfuscated, so compiling against our own build works identically
-    // whether the actual jar present at runtime is stock Serene Seasons or a custom fork.
     compileOnly files("libs/SereneSeasons-forge-1.20.1-9.1.0.6.jar")
     implementation fg.deobf('com.github.glitchfiend:GlitchCore-forge:' + minecraft_version + '-' + glitchcore_version)
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    var replaceProperties = [
+        mod_id: mod_id,
+        mod_name: mod_name,
+        mod_version: mod_version,
+        mod_authors: mod_authors,
+        mod_description: mod_description
+    ]
+    inputs.properties replaceProperties
+    filesMatching(['META-INF/mods.toml']) {
+        expand replaceProperties
+    }
 }
 
 jar {

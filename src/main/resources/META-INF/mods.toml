@@ -2,13 +2,15 @@ modLoader="javafml"
 loaderVersion="[47,)"
 license="MIT"
 issueTrackerURL="https://github.com/Manlet008/SeasonPlayerMinimum/issues"
+displayURL="https://github.com/Manlet008/SeasonPlayerMinimum"
 
 [[mods]]
-    modId="seasonplayerminimum"
-    version="1.0.0"
-    displayName="Season Player Minimum"
-    authors="Manlet"
-    description='''Adds a seasonCyclePlayerMinimum gamerule that freezes Serene Seasons' season cycle when fewer than the configured number of players are online. Works against stock Serene Seasons on its own, and takes priority over Serene Seasons Fix - Revived's own override when that mod is also present.'''
+    modId="${mod_id}"
+    version="${mod_version}"
+    displayName="${mod_name}"
+    authors="${mod_authors}"
+    description='''${mod_description}'''
+    credits="Built against Glitchfiend's Serene Seasons; compatible alongside oros' Serene Seasons Fix - Revived."
 
 [[dependencies.seasonplayerminimum]]
     modId="forge"
