@@ -1,16 +1,4 @@
 {
-  "mappings": {
-    "manlet/seasonplayerminimum/mixin/MixinSeasonHandler": {
-      "Lnet/minecraft/world/level/storage/LevelData;getDayTime()J": "Lnet/minecraft/world/level/storage/LevelData;m_6792_()J",
-      "Lnet/minecraft/world/level/Level;getDayTime()J": "Lnet/minecraft/world/level/Level;m_46468_()J"
-    }
-  },
-  "data": {
-    "searge": {
-      "manlet/seasonplayerminimum/mixin/MixinSeasonHandler": {
-        "Lnet/minecraft/world/level/storage/LevelData;getDayTime()J": "Lnet/minecraft/world/level/storage/LevelData;m_6792_()J",
-        "Lnet/minecraft/world/level/Level;getDayTime()J": "Lnet/minecraft/world/level/Level;m_46468_()J"
-      }
-    }
-  }
+  "mappings": {},
+  "data": {}
 }
