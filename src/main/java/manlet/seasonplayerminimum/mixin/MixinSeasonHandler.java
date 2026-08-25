@@ -31,7 +31,7 @@ public class MixinSeasonHandler
         if (server.getPlayerList().getPlayerCount() < minimumPlayers)
         {
             // Keep lastDayTimes in sync with the world's day time while paused, otherwise the
-            // elapsed time gets banked and slams into seasonCycleTicks all at once on resume.
+            // elapsed time gets banked.
             SeasonHandler.lastDayTimes.put(level, level.getDayTime());
             ci.cancel();
         }
