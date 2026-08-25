@@ -24,7 +24,6 @@ public class ServerConfig
         printMessagesWhenSeasonCycleDisabled = BUILDER
             .comment("Whether to still log those messages while doSeasonCycle is already set to false. Off by default")
             .define("print_messages_if_doseasoncycle_false", false);
-
         serverMessageCooldownSeconds = BUILDER
             .comment("Minimum seconds between chat messages to prevent spam. Only limits the chat, not the console log.")
             .defineInRange("server_message_cooldown_seconds", 60, 0, Integer.MAX_VALUE);

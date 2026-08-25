@@ -15,9 +15,7 @@ import sereneseasons.api.SSGameRules;
 @Mod.EventBusSubscriber(modid = SeasonPlayerMinimum.MOD_ID)
 public class SeasonCyclePauseHandler
 {
-    // Translation keys for the messages sent on each pause/resume transition - see
-    // assets/seasonplayerminimum/lang for the actual wording. Each takes (current player count,
-    // configured minimum) as its arguments.
+
     public static final String KEY_PAUSED = "seasonplayerminimum.message.paused";
     public static final String KEY_RESUMED = "seasonplayerminimum.message.resumed";
     public static final String KEY_RESUMED_BUT_DISABLED = "seasonplayerminimum.message.resumed_but_disabled";
@@ -25,9 +23,7 @@ public class SeasonCyclePauseHandler
     private static final Logger LOGGER = LogManager.getLogger(SeasonPlayerMinimum.MOD_ID);
 
     private static volatile boolean paused = false;
-    // 0, not Long.MIN_VALUE - System.currentTimeMillis() minus MIN_VALUE overflows a long and
-    // wraps negative, which would fail the cooldown check below and silently skip the very first
-    // broadcast ever attempted.
+
     private static long lastBroadcastTimeMillis = 0L;
 
     public static boolean isPaused()
