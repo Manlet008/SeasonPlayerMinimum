@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Specification-Title: Serene Seasons: Player Minimum
 Specification-Vendor: Manlet008
-Specification-Version: 1.1.0
+Specification-Version: 1.1.1
 Implementation-Title: Serene Seasons: Player Minimum
-Implementation-Version: 1.1.0
+Implementation-Version: 1.1.1
 Implementation-Vendor: Manlet008
 MixinConfigs: seasonplayerminimum.mixins.json
 
