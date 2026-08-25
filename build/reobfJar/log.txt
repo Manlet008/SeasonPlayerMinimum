@@ -136,6 +136,7 @@ Adding Libraries to Inheritance
 Reading Input: D:\Minecraft Modding\SeasonPlayerMinimum\build\libs\seasonplayerminimum-1.1.1.jar
 Adding input to inheritance map
 Processing entries
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
 Sorting
 Writing Output: D:\Minecraft Modding\SeasonPlayerMinimum\build\reobfJar\output.jar
@@ -144,9 +145,10 @@ Writing Output: D:\Minecraft Modding\SeasonPlayerMinimum\build\reobfJar\output.j
   META-INF/mods.toml
   manlet/
   manlet/seasonplayerminimum/
+  manlet/seasonplayerminimum/SeasonCyclePauseHandler.class
   manlet/seasonplayerminimum/SeasonPlayerMinimum.class
   manlet/seasonplayerminimum/mixin/
-  manlet/seasonplayerminimum/mixin/MixinSeasonHandler.class
+  manlet/seasonplayerminimum/mixin/MixinGameRules.class
   pack.mcmeta
   seasonplayerminimum.mixins.json
   seasonplayerminimum.refmap.json

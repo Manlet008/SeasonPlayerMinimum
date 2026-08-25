@@ -1,54 +1,63 @@
-[25Aug2026 10:59:58.034] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserveruserdev, --gameDir, ., --fml.forgeVersion, 47.3.33, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, seasonplayerminimum.mixins.json]
-[25Aug2026 10:59:58.038] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[25Aug2026 10:59:58.195] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserveruserdev
-[25Aug2026 10:59:58.244] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/lukew/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=SERVER
-[25Aug2026 10:59:58.595] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.33\29591758414c084b41bbd6808bf30309b149da4d\javafmllanguage-1.20.1-47.3.33.jar is missing mods.toml file
-[25Aug2026 10:59:58.599] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.33\31f826407e5bab62abe1130d8d369d7d45e7ce3\lowcodelanguage-1.20.1-47.3.33.jar is missing mods.toml file
-[25Aug2026 10:59:58.602] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.33\fb2db487fa47ae1cdcad118267d714f75569ffc7\mclanguage-1.20.1-47.3.33.jar is missing mods.toml file
-[25Aug2026 10:59:58.610] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.33\2b6f448126f68c8bbc04b942b3fe7aafb12e22c0\fmlcore-1.20.1-47.3.33.jar is missing mods.toml file
-[25Aug2026 10:59:58.714] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[25Aug2026 10:59:59.949] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[25Aug2026 10:59:59.960] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserveruserdev' with arguments [--gameDir, .]
-[25Aug2026 11:00:00.068] [main/WARN] [mixin/]: Reference map 'seasonplayerminimum.refmap.json' for seasonplayerminimum.mixins.json could not be read. If this is a development environment you can ignore this message
-[25Aug2026 11:00:00.377] [main/INFO] [mixin/]: Remapping refMap glitchcore.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
-[25Aug2026 11:00:00.378] [main/INFO] [mixin/]: Remapping refMap glitchcore.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
-[25Aug2026 11:00:00.379] [main/INFO] [mixin/]: Remapping refMap sereneseasons.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
-[25Aug2026 11:00:00.380] [main/INFO] [mixin/]: Remapping refMap sereneseasons.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
-[25Aug2026 11:00:00.380] [main/INFO] [mixin/]: Remapping refMap sereneseasonsfix.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
-[25Aug2026 11:00:03.270] [main/FATAL] [mixin/]: Mixin apply failed glitchcore.mixins.json:MixinItemStack -> net.minecraft.world.item.ItemStack: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException @Shadow method m_41777_ in glitchcore.mixins.json:MixinItemStack was not located in the target class net.minecraft.world.item.ItemStack. Using refmap glitchcore.refmap.json
-org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow method m_41777_ in glitchcore.mixins.json:MixinItemStack was not located in the target class net.minecraft.world.item.ItemStack. Using refmap glitchcore.refmap.json
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:442) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachShadowMethod(MixinPreProcessorStandard.java:415) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:343) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:302) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:280) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:292) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar:10.0.9+10.0.9+main.dcd20f30]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at net.minecraft.core.cauldron.CauldronInteraction.lambda$newInteractionMap$1(CauldronInteraction.java:39) ~[forge-1.20.1-47.3.33_mapped_official_1.20.1.jar:?]
-	at net.minecraft.Util.make(Util.java:359) ~[forge-1.20.1-47.3.33_mapped_official_1.20.1.jar:?]
-	at net.minecraft.core.cauldron.CauldronInteraction.newInteractionMap(CauldronInteraction.java:39) ~[forge-1.20.1-47.3.33_mapped_official_1.20.1.jar:?]
-	at net.minecraft.core.cauldron.CauldronInteraction.<clinit>(CauldronInteraction.java:33) ~[forge-1.20.1-47.3.33_mapped_official_1.20.1.jar:?]
-	at net.minecraft.world.level.block.CauldronBlock.<init>(CauldronBlock.java:17) ~[forge-1.20.1-47.3.33_mapped_official_1.20.1.jar:?]
-	at net.minecraft.world.level.block.Blocks.<clinit>(Blocks.java:416) ~[forge-1.20.1-47.3.33_mapped_official_1.20.1.jar:?]
-	at net.minecraft.world.level.block.FireBlock.bootStrap(FireBlock.java:301) ~[forge-1.20.1-47.3.33_mapped_official_1.20.1.jar:?]
-	at net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:46) ~[forge-1.20.1-47.3.33_mapped_official_1.20.1.jar:?]
-	at net.minecraft.server.Main.main(Main.java:121) ~[forge-1.20.1-47.3.33_mapped_official_1.20.1.jar:?]
+[25Aug2026 11:33:29.188] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserveruserdev, --gameDir, ., --fml.forgeVersion, 47.3.33, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, seasonplayerminimum.mixins.json]
+[25Aug2026 11:33:29.192] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[25Aug2026 11:33:29.377] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserveruserdev
+[25Aug2026 11:33:29.427] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/lukew/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=SERVER
+[25Aug2026 11:33:29.769] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.33\29591758414c084b41bbd6808bf30309b149da4d\javafmllanguage-1.20.1-47.3.33.jar is missing mods.toml file
+[25Aug2026 11:33:29.773] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.33\31f826407e5bab62abe1130d8d369d7d45e7ce3\lowcodelanguage-1.20.1-47.3.33.jar is missing mods.toml file
+[25Aug2026 11:33:29.776] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.33\fb2db487fa47ae1cdcad118267d714f75569ffc7\mclanguage-1.20.1-47.3.33.jar is missing mods.toml file
+[25Aug2026 11:33:29.779] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.33\2b6f448126f68c8bbc04b942b3fe7aafb12e22c0\fmlcore-1.20.1-47.3.33.jar is missing mods.toml file
+[25Aug2026 11:33:29.854] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[25Aug2026 11:33:31.243] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Aug2026 11:33:31.253] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserveruserdev' with arguments [--gameDir, .]
+[25Aug2026 11:33:31.356] [main/WARN] [mixin/]: Reference map 'seasonplayerminimum.refmap.json' for seasonplayerminimum.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Aug2026 11:33:31.620] [main/INFO] [mixin/]: Remapping refMap glitchcore.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
+[25Aug2026 11:33:31.622] [main/INFO] [mixin/]: Remapping refMap glitchcore.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
+[25Aug2026 11:33:31.624] [main/INFO] [mixin/]: Remapping refMap sereneseasons.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
+[25Aug2026 11:33:31.626] [main/INFO] [mixin/]: Remapping refMap sereneseasons.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
+[25Aug2026 11:33:31.627] [main/INFO] [mixin/]: Remapping refMap sereneseasonsfix.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
+[25Aug2026 11:33:38.046] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: sereneseasons, class sereneseasons.forge.core.SereneSeasonsForge
+java.lang.NoSuchFieldError: f_156653_
+	at sereneseasons.config.FertilityConfig.load(FertilityConfig.java:27) ~[SereneSeasons-mp-forge-1.20.1-9.1.0.6.jar%23194!/:9.1.0.6]
+	at glitchcore.config.Config.<init>(Config.java:36) ~[GlitchCore-forge-1.20.1-0.0.1.1.jar%23193!/:0.0.1.1]
+	at glitchcore.config.Config.<init>(Config.java:29) ~[GlitchCore-forge-1.20.1-0.0.1.1.jar%23193!/:0.0.1.1]
+	at sereneseasons.config.FertilityConfig.<init>(FertilityConfig.java:18) ~[SereneSeasons-mp-forge-1.20.1-9.1.0.6.jar%23194!/:9.1.0.6]
+	at sereneseasons.init.ModConfig.init(ModConfig.java:18) ~[SereneSeasons-mp-forge-1.20.1-9.1.0.6.jar%23194!/:9.1.0.6]
+	at sereneseasons.core.SereneSeasons.init(SereneSeasons.java:29) ~[SereneSeasons-mp-forge-1.20.1-9.1.0.6.jar%23194!/:9.1.0.6]
+	at sereneseasons.forge.core.SereneSeasonsForge.<init>(SereneSeasonsForge.java:32) ~[SereneSeasons-mp-forge-1.20.1-9.1.0.6.jar%23194!/:9.1.0.6]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.3.33.jar%23198!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:126) ~[fmlcore-1.20.1-47.3.33.jar%23201!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[25Aug2026 11:33:38.053] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.33, for MC 1.20.1 with MCP 20230612.114412
+[25Aug2026 11:33:38.053] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.33 Initialized
+[25Aug2026 11:33:38.116] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
+[25Aug2026 11:33:38.271] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 6c8b8911-e18b-4484-9a31-f9a62430b55f
+[25Aug2026 11:33:38.272] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to .\crash-reports\crash-2026-08-25_11.33.38-fml.txt
+[25Aug2026 11:33:38.275] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 91053ba6-dd80-4d8b-9c42-ebb9e9800b81
+[25Aug2026 11:33:38.275] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Serene Seasons (sereneseasons) has failed to load correctly
+§7java.lang.NoSuchFieldError: f_156653_
+]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.3.33.jar:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.33.jar:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.33.jar:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.33.jar:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.33.jar:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.33_mapped_official_1.20.1.jar:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[forge-1.20.1-47.3.33_mapped_official_1.20.1.jar:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
