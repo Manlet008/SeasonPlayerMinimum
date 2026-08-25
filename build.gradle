@@ -55,12 +55,15 @@ repositories {
         name = "JitPack"
         url = "https://jitpack.io"
     }
+    flatDir {
+        dirs 'libs'
+    }
 }
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    compileOnly files("libs/SereneSeasons-forge-1.20.1-9.1.0.6.jar")
+    compileOnly fg.deobf('sereneseasons:SereneSeasons-forge:1.20.1-9.1.0.6')
     implementation fg.deobf('com.github.glitchfiend:GlitchCore-forge:' + minecraft_version + '-' + glitchcore_version)
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'

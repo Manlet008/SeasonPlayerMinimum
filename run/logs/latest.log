@@ -1,28 +1,27 @@
-[25Aug2026 11:33:29.188] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserveruserdev, --gameDir, ., --fml.forgeVersion, 47.3.33, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, seasonplayerminimum.mixins.json]
-[25Aug2026 11:33:29.192] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[25Aug2026 11:33:29.377] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserveruserdev
-[25Aug2026 11:33:29.427] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/lukew/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=SERVER
-[25Aug2026 11:33:29.769] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.33\29591758414c084b41bbd6808bf30309b149da4d\javafmllanguage-1.20.1-47.3.33.jar is missing mods.toml file
-[25Aug2026 11:33:29.773] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.33\31f826407e5bab62abe1130d8d369d7d45e7ce3\lowcodelanguage-1.20.1-47.3.33.jar is missing mods.toml file
-[25Aug2026 11:33:29.776] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.33\fb2db487fa47ae1cdcad118267d714f75569ffc7\mclanguage-1.20.1-47.3.33.jar is missing mods.toml file
-[25Aug2026 11:33:29.779] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.33\2b6f448126f68c8bbc04b942b3fe7aafb12e22c0\fmlcore-1.20.1-47.3.33.jar is missing mods.toml file
-[25Aug2026 11:33:29.854] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[25Aug2026 11:33:31.243] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[25Aug2026 11:33:31.253] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserveruserdev' with arguments [--gameDir, .]
-[25Aug2026 11:33:31.356] [main/WARN] [mixin/]: Reference map 'seasonplayerminimum.refmap.json' for seasonplayerminimum.mixins.json could not be read. If this is a development environment you can ignore this message
-[25Aug2026 11:33:31.620] [main/INFO] [mixin/]: Remapping refMap glitchcore.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
-[25Aug2026 11:33:31.622] [main/INFO] [mixin/]: Remapping refMap glitchcore.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
-[25Aug2026 11:33:31.624] [main/INFO] [mixin/]: Remapping refMap sereneseasons.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
-[25Aug2026 11:33:31.626] [main/INFO] [mixin/]: Remapping refMap sereneseasons.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
-[25Aug2026 11:33:31.627] [main/INFO] [mixin/]: Remapping refMap sereneseasonsfix.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
-[25Aug2026 11:33:38.046] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: sereneseasons, class sereneseasons.forge.core.SereneSeasonsForge
-java.lang.NoSuchFieldError: f_156653_
-	at sereneseasons.config.FertilityConfig.load(FertilityConfig.java:27) ~[SereneSeasons-mp-forge-1.20.1-9.1.0.6.jar%23194!/:9.1.0.6]
-	at glitchcore.config.Config.<init>(Config.java:36) ~[GlitchCore-forge-1.20.1-0.0.1.1.jar%23193!/:0.0.1.1]
-	at glitchcore.config.Config.<init>(Config.java:29) ~[GlitchCore-forge-1.20.1-0.0.1.1.jar%23193!/:0.0.1.1]
-	at sereneseasons.config.FertilityConfig.<init>(FertilityConfig.java:18) ~[SereneSeasons-mp-forge-1.20.1-9.1.0.6.jar%23194!/:9.1.0.6]
-	at sereneseasons.init.ModConfig.init(ModConfig.java:18) ~[SereneSeasons-mp-forge-1.20.1-9.1.0.6.jar%23194!/:9.1.0.6]
-	at sereneseasons.core.SereneSeasons.init(SereneSeasons.java:29) ~[SereneSeasons-mp-forge-1.20.1-9.1.0.6.jar%23194!/:9.1.0.6]
+[25Aug2026 13:02:23.318] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserveruserdev, --gameDir, ., --fml.forgeVersion, 47.3.33, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, seasonplayerminimum.mixins.json]
+[25Aug2026 13:02:23.322] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[25Aug2026 13:02:23.491] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserveruserdev
+[25Aug2026 13:02:23.544] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/lukew/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=SERVER
+[25Aug2026 13:02:24.004] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.33\29591758414c084b41bbd6808bf30309b149da4d\javafmllanguage-1.20.1-47.3.33.jar is missing mods.toml file
+[25Aug2026 13:02:24.007] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.33\31f826407e5bab62abe1130d8d369d7d45e7ce3\lowcodelanguage-1.20.1-47.3.33.jar is missing mods.toml file
+[25Aug2026 13:02:24.012] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.33\fb2db487fa47ae1cdcad118267d714f75569ffc7\mclanguage-1.20.1-47.3.33.jar is missing mods.toml file
+[25Aug2026 13:02:24.016] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\lukew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.33\2b6f448126f68c8bbc04b942b3fe7aafb12e22c0\fmlcore-1.20.1-47.3.33.jar is missing mods.toml file
+[25Aug2026 13:02:24.105] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[25Aug2026 13:02:25.429] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Aug2026 13:02:25.443] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserveruserdev' with arguments [--gameDir, .]
+[25Aug2026 13:02:25.564] [main/WARN] [mixin/]: Reference map 'seasonplayerminimum.refmap.json' for seasonplayerminimum.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Aug2026 13:02:26.376] [main/INFO] [mixin/]: Remapping refMap glitchcore.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
+[25Aug2026 13:02:26.377] [main/INFO] [mixin/]: Remapping refMap glitchcore.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
+[25Aug2026 13:02:26.379] [main/INFO] [mixin/]: Remapping refMap sereneseasons.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
+[25Aug2026 13:02:26.380] [main/INFO] [mixin/]: Remapping refMap sereneseasons.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
+[25Aug2026 13:02:26.382] [main/INFO] [mixin/]: Remapping refMap sereneseasonsfix.refmap.json using D:\Minecraft Modding\SeasonPlayerMinimum/build/createSrgToMcp/output.srg
+[25Aug2026 13:02:32.278] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.33, for MC 1.20.1 with MCP 20230612.114412
+[25Aug2026 13:02:32.278] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.33 Initialized
+[25Aug2026 13:02:32.380] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: sereneseasons, class sereneseasons.forge.core.SereneSeasonsForge
+java.lang.IllegalStateException: Duplicate game rule registration for seasonCyclePlayerMinimum
+	at net.minecraft.world.level.GameRules.register(GameRules.java:62) ~[forge-1.20.1-47.3.33_mapped_official_1.20.1.jar%23197!/:?]
+	at sereneseasons.init.ModGameRules.init(ModGameRules.java:22) ~[SereneSeasons-mp-forge-1.20.1-9.1.0.6.jar%23194!/:9.1.0.6]
+	at sereneseasons.core.SereneSeasons.init(SereneSeasons.java:33) ~[SereneSeasons-mp-forge-1.20.1-9.1.0.6.jar%23194!/:9.1.0.6]
 	at sereneseasons.forge.core.SereneSeasonsForge.<init>(SereneSeasonsForge.java:32) ~[SereneSeasons-mp-forge-1.20.1-9.1.0.6.jar%23194!/:9.1.0.6]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
@@ -38,16 +37,14 @@ java.lang.NoSuchFieldError: f_156653_
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[25Aug2026 11:33:38.053] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.33, for MC 1.20.1 with MCP 20230612.114412
-[25Aug2026 11:33:38.053] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.33 Initialized
-[25Aug2026 11:33:38.116] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
-[25Aug2026 11:33:38.271] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 6c8b8911-e18b-4484-9a31-f9a62430b55f
-[25Aug2026 11:33:38.272] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to .\crash-reports\crash-2026-08-25_11.33.38-fml.txt
-[25Aug2026 11:33:38.275] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 91053ba6-dd80-4d8b-9c42-ebb9e9800b81
-[25Aug2026 11:33:38.275] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+[25Aug2026 13:02:32.400] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
+[25Aug2026 13:02:32.613] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 694c774b-b5c1-456a-8e68-5596e7d8f829
+[25Aug2026 13:02:32.630] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to .\crash-reports\crash-2026-08-25_13.02.32-fml.txt
+[25Aug2026 13:02:32.632] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 735725df-dc69-484c-9933-5c2dc95552a3
+[25Aug2026 13:02:32.633] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
 net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
 	Serene Seasons (sereneseasons) has failed to load correctly
-§7java.lang.NoSuchFieldError: f_156653_
+§7java.lang.IllegalStateException: Duplicate game rule registration for seasonCyclePlayerMinimum
 ]
 	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.3.33.jar:?]
 	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.33.jar:?]

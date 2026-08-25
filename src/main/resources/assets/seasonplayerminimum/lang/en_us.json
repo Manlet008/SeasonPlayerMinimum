@@ -1,0 +1,5 @@
+{
+  "seasonplayerminimum.message.paused": "%1$s/%2$s Players online, season cycle paused",
+  "seasonplayerminimum.message.resumed": "%1$s/%2$s Player count reached, season cycle continuing",
+  "seasonplayerminimum.message.resumed_but_disabled": "%1$s/%2$s Player count reached, season cycle would continue but doSeasonCycle is set to false"
+}

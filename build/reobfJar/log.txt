@@ -143,10 +143,16 @@ Writing Output: D:\Minecraft Modding\SeasonPlayerMinimum\build\reobfJar\output.j
   META-INF/
   META-INF/MANIFEST.MF
   META-INF/mods.toml
+  assets/
+  assets/seasonplayerminimum/
+  assets/seasonplayerminimum/lang/
+  assets/seasonplayerminimum/lang/en_us.json
   manlet/
   manlet/seasonplayerminimum/
   manlet/seasonplayerminimum/SeasonCyclePauseHandler.class
   manlet/seasonplayerminimum/SeasonPlayerMinimum.class
+  manlet/seasonplayerminimum/config/
+  manlet/seasonplayerminimum/config/ServerConfig.class
   manlet/seasonplayerminimum/mixin/
   manlet/seasonplayerminimum/mixin/MixinGameRules.class
   pack.mcmeta
