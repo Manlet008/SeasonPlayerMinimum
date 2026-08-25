@@ -1,4 +1,14 @@
 {
-  "mappings": {},
-  "data": {}
+  "mappings": {
+    "manlet/seasonplayerminimum/mixin/MixinGameRules": {
+      "getBoolean": "Lnet/minecraft/world/level/GameRules;m_46207_(Lnet/minecraft/world/level/GameRules$Key;)Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "manlet/seasonplayerminimum/mixin/MixinGameRules": {
+        "getBoolean": "Lnet/minecraft/world/level/GameRules;m_46207_(Lnet/minecraft/world/level/GameRules$Key;)Z"
+      }
+    }
+  }
 }

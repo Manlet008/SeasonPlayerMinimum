@@ -6,7 +6,7 @@ displayURL="https://github.com/Manlet008/SeasonPlayerMinimum"
 
 [[mods]]
     modId="seasonplayerminimum"
-    version="1.0.0"
+    version="1.1.1"
     displayName="Serene Seasons: Player Minimum"
     authors="Manlet008"
     description='''Adds a seasonCyclePlayerMinimum gamerule that freezes Serene Seasons' season cycle when fewer than the configured number of players are online.'''
