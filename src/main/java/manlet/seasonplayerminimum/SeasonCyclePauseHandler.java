@@ -25,7 +25,10 @@ public class SeasonCyclePauseHandler
     private static final Logger LOGGER = LogManager.getLogger(SeasonPlayerMinimum.MOD_ID);
 
     private static volatile boolean paused = false;
-    private static long lastBroadcastTimeMillis = Long.MIN_VALUE;
+    // 0, not Long.MIN_VALUE - System.currentTimeMillis() minus MIN_VALUE overflows a long and
+    // wraps negative, which would fail the cooldown check below and silently skip the very first
+    // broadcast ever attempted.
+    private static long lastBroadcastTimeMillis = 0L;
 
     public static boolean isPaused()
     {
